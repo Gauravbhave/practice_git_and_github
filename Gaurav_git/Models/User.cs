@@ -10,5 +10,8 @@ namespace Gaurav_git.Models
         [Required]
         public string user_name { get; set; }
 
+        [Required]
+        public string user_email { get; set; }
+
     }
 }
